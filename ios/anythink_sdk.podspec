@@ -1,6 +1,6 @@
 #
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html.
-# Run `pod lib lint anythink_sdk.podspec` to validate before publishing.
+# Run `pod lib lint TPNSDKiOS_sdk.podspec` to validate before publishing.
 #
 
 Pod::Spec.new do |s|
@@ -40,35 +40,35 @@ A new Flutter project.
 
   #************************ CocoaPod **********************************#
    
-  s.dependency 'AnyThinkiOS','6.2.36'
+  s.dependency 'TPNSDKiOS','6.3.21'
   s.dependency 'Masonry'
-  # s.dependency 'AnyThinkiOS/AnyThinkAdmobAdapter','6.2.36'
-  s.dependency 'AnyThinkiOS/AnyThinkTTAdapter','6.2.36'
-#   s.dependency 'AnyThinkiOS/AnyThinkPangleAdapter','6.2.36'
-#   s.dependency 'AnyThinkiOS/AnyThinkFacebookAdapter','6.2.36'
-#   s.dependency 'AnyThinkiOS/AnyThinkGDTAdapter','6.2.36'
+  # s.dependency 'TPNSDKiOS/TPNSDKiOSAdmobAdapter','6.3.21'
+  s.dependency 'TPNSDKiOS/TPNSDKiOSTTAdapter','6.3.21'
+#   s.dependency 'TPNSDKiOS/TPNSDKiOSPangleAdapter','6.3.21'
+#   s.dependency 'TPNSDKiOS/TPNSDKiOSFacebookAdapter','6.3.21'
+#   s.dependency 'TPNSDKiOS/TPNSDKiOSGDTAdapter','6.3.21'
    
-#   s.dependency 'AnyThinkiOS/AnyThinkMintegralAdapter','6.2.36'
-#   s.dependency 'AnyThinkiOS/AnyThinkApplovinAdapter','6.2.36'
-#   s.dependency 'AnyThinkiOS/AnyThinkTapjoyAdapter','6.2.36'
-#   s.dependency 'AnyThinkiOS/AnyThinkChartboostAdapter','6.2.36'
-#   s.dependency 'AnyThinkiOS/AnyThinkUnityAdsAdapter','6.2.36'
-#   s.dependency 'AnyThinkiOS/AnyThinkVungleAdapter','6.2.36'
-#   s.dependency 'AnyThinkiOS/AnyThinkInmobiAdapter','6.2.36'
-#   s.dependency 'AnyThinkiOS/AnyThinkIronSourceAdapter','6.2.36'
-#   s.dependency 'AnyThinkiOS/AnyThinkMaioAdapter','6.2.36'
-#   s.dependency 'AnyThinkiOS/AnyThinkNendAdapter','6.2.36'
-#   s.dependency 'AnyThinkiOS/AnyThinkSigmobAdapter','6.2.36'
-#   s.dependency 'AnyThinkiOS/AnyThinkStartAppAdapter','6.2.36'
-#   s.dependency 'AnyThinkiOS/AnyThinkKidozAdapter','6.2.36'
-#   s.dependency 'AnyThinkiOS/AnyThinkFyberAdapter','6.2.36'
-#   s.dependency 'AnyThinkiOS/AnyThinkMyTargetAdapter','6.2.36'
-#   s.dependency 'AnyThinkiOS/AnyThinkKuaiShouAdapter','6.2.36'
-#   s.dependency 'AnyThinkiOS/AnyThinkBaiduAdapter','6.2.36'
-#   s.dependency 'AnyThinkiOS/AnyThinkOguryAdapter','6.2.36'
-#   s.dependency 'AnyThinkiOS/AnyThinkMopubAdapter','6.2.36'
-#   s.dependency 'AnyThinkiOS/AnyThinkAdColonyAdapter','6.2.36'
-#   s.dependency 'AnyThinkiOS/AnyThinkKlevinAdapter','6.2.36'
+#   s.dependency 'TPNSDKiOS/TPNSDKiOSMintegralAdapter','6.3.21'
+#   s.dependency 'TPNSDKiOS/TPNSDKiOSApplovinAdapter','6.3.21'
+#   s.dependency 'TPNSDKiOS/TPNSDKiOSTapjoyAdapter','6.3.21'
+#   s.dependency 'TPNSDKiOS/TPNSDKiOSChartboostAdapter','6.3.21'
+#   s.dependency 'TPNSDKiOS/TPNSDKiOSUnityAdsAdapter','6.3.21'
+#   s.dependency 'TPNSDKiOS/TPNSDKiOSVungleAdapter','6.3.21'
+#   s.dependency 'TPNSDKiOS/TPNSDKiOSInmobiAdapter','6.3.21'
+#   s.dependency 'TPNSDKiOS/TPNSDKiOSIronSourceAdapter','6.3.21'
+#   s.dependency 'TPNSDKiOS/TPNSDKiOSMaioAdapter','6.3.21'
+#   s.dependency 'TPNSDKiOS/TPNSDKiOSNendAdapter','6.3.21'
+#   s.dependency 'TPNSDKiOS/TPNSDKiOSSigmobAdapter','6.3.21'
+#   s.dependency 'TPNSDKiOS/TPNSDKiOSStartAppAdapter','6.3.21'
+#   s.dependency 'TPNSDKiOS/TPNSDKiOSKidozAdapter','6.3.21'
+#   s.dependency 'TPNSDKiOS/TPNSDKiOSFyberAdapter','6.3.21'
+#   s.dependency 'TPNSDKiOS/TPNSDKiOSMyTargetAdapter','6.3.21'
+#   s.dependency 'TPNSDKiOS/TPNSDKiOSKuaiShouAdapter','6.3.21'
+#   s.dependency 'TPNSDKiOS/TPNSDKiOSBaiduAdapter','6.3.21'
+#   s.dependency 'TPNSDKiOS/TPNSDKiOSOguryAdapter','6.3.21'
+#   s.dependency 'TPNSDKiOS/TPNSDKiOSMopubAdapter','6.3.21'
+#   s.dependency 'TPNSDKiOS/TPNSDKiOSAdColonyAdapter','6.3.21'
+#   s.dependency 'TPNSDKiOS/TPNSDKiOSKlevinAdapter','6.3.21'
 
 #*************************************************************#
 
