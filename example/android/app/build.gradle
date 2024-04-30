@@ -23,6 +23,7 @@ if (flutterVersionName == null) {
 
 apply plugin: 'com.android.application'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+apply from: "sdk_dependencies.gradle"
 
 
 android {
@@ -44,12 +45,6 @@ android {
     }
 
 
-    sourceSets {
-        main {
-            specifyManifestFile(manifest, res)
-        }
-    }
-
     buildTypes {
         release {
             // TODO: Add your own signing config for the release build.
@@ -66,19 +61,4 @@ flutter {
 
 dependencies {
     implementation 'com.android.support:appcompat-v7:28.0.0'
-}
-
-def specifyManifestFile(manifest, res) {
-    println 'isChina: ' + isChina
-    if (isChina == "true") {
-        apply from: "build_china.gradle"
-
-        
-        manifest.srcFile 'src/main/AndroidManifest-china.xml'
-        res.srcDirs += '../../../android/anythink_china/res'
-    }
-    else if (isChina == "false"){
-        apply from: "build_nonchina.gradle"
-        manifest.srcFile 'src/main/AndroidManifest-nonchina.xml'
-    }
 }
