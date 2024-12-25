@@ -92,7 +92,7 @@ class MyHome extends StatelessWidget {
                       decoration: BoxDecoration(),
                       // color: Colors.white,
                       child: ElevatedButton(
-                        style: ElevatedButton.styleFrom(primary: Colors.white),
+                        style: ElevatedButton.styleFrom(backgroundColor: Colors.white),
                         onPressed: () {
                           Navigator.pushNamed(context, "/rewardRouter");
                         },
@@ -114,7 +114,7 @@ class MyHome extends StatelessWidget {
                         // color: Colors.white,
                         child: ElevatedButton(
                           style:
-                              ElevatedButton.styleFrom(primary: Colors.white),
+                              ElevatedButton.styleFrom(backgroundColor: Colors.white),
                           onPressed: () {
                             Navigator.pushNamed(context, "/interstitialRouter");
                           },
@@ -141,7 +141,7 @@ class MyHome extends StatelessWidget {
                         // color: Colors.white,
                         child: ElevatedButton(
                           style:
-                              ElevatedButton.styleFrom(primary: Colors.white),
+                              ElevatedButton.styleFrom(backgroundColor: Colors.white),
                           onPressed: () {
                             Navigator.pushNamed(context, "/bannerRouter");
                           },
@@ -163,7 +163,7 @@ class MyHome extends StatelessWidget {
                         // color: Colors.white,
                         child: ElevatedButton(
                           style:
-                              ElevatedButton.styleFrom(primary: Colors.white),
+                              ElevatedButton.styleFrom(backgroundColor: Colors.white),
                           onPressed: () {
                             Navigator.pushNamed(context, "/nativeRouter");
                           },

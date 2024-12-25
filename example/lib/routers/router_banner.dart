@@ -64,7 +64,7 @@ class _BannerRouterState extends State<BannerRouter> {
               Padding(
                 padding: EdgeInsets.only(top: 30, left: 20),
                 child: ElevatedButton(
-                  style: ElevatedButton.styleFrom(primary: Colors.white70),
+                  style: ElevatedButton.styleFrom(backgroundColor: Colors.white70),
                   onPressed: () => Navigator.pop(context),
                   child: Text("Back",
                       style: TextStyle(
@@ -79,14 +79,14 @@ class _BannerRouterState extends State<BannerRouter> {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   ElevatedButton(
-                      style: ElevatedButton.styleFrom(primary: Colors.white70),
+                      style: ElevatedButton.styleFrom(backgroundColor: Colors.white70),
                       onPressed: BannerManager.loadBannerWith,
                       child: Text("Load",
                           style: TextStyle(
                             color: Colors.black,
                           ))),
                   ElevatedButton(
-                      style: ElevatedButton.styleFrom(primary: Colors.white70),
+                      style: ElevatedButton.styleFrom(backgroundColor: Colors.white70),
                       onPressed: _checkReadyToShow,
                       // onPressed: BannerManager.showAdInPosition,
                       child: Text("Show",
@@ -94,7 +94,7 @@ class _BannerRouterState extends State<BannerRouter> {
                             color: Colors.black,
                           ))),
                   ElevatedButton(
-                      style: ElevatedButton.styleFrom(primary: Colors.white70),
+                      style: ElevatedButton.styleFrom(backgroundColor: Colors.white70),
                       // onPressed: BannerManager.removeBannerAd,
                       onPressed: _remove,
                       child: Text("Remove",
@@ -103,7 +103,7 @@ class _BannerRouterState extends State<BannerRouter> {
                             color: Colors.black,
                           ))),
                   ElevatedButton(
-                      style: ElevatedButton.styleFrom(primary: Colors.white70),
+                      style: ElevatedButton.styleFrom(backgroundColor: Colors.white70),
                       // onPressed: BannerManger.checkBannerLoadStatus,
                       onPressed: BannerManager.readyStatus,
                       child: Text("Ready Status",

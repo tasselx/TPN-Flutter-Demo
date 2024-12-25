@@ -21,7 +21,7 @@ class _InterstitialRouterState extends State<InterstitialRouter> {
               Padding(
                 padding: EdgeInsets.only(top: 30, left: 20),
                 child: ElevatedButton(
-                  style: ElevatedButton.styleFrom(primary: Colors.white70),
+                  style: ElevatedButton.styleFrom(backgroundColor: Colors.white70),
                   onPressed: () => Navigator.pop(context),
                   child: Text("Back",
                       style: TextStyle(
@@ -36,21 +36,21 @@ class _InterstitialRouterState extends State<InterstitialRouter> {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   ElevatedButton(
-                      style: ElevatedButton.styleFrom(primary: Colors.white70),
+                      style: ElevatedButton.styleFrom(backgroundColor: Colors.white70),
                       onPressed: InterstitialManager.loadInterstitialAd,
                       child: Text("Load",
                           style: TextStyle(
                             color: Colors.black,
                           ))),
                   ElevatedButton(
-                      style: ElevatedButton.styleFrom(primary: Colors.white70),
+                      style: ElevatedButton.styleFrom(backgroundColor: Colors.white70),
                       onPressed: InterstitialManager.showSceneInterstitialAd,
                       child: Text("Show",
                           style: TextStyle(
                             color: Colors.black,
                           ))),
                   ElevatedButton(
-                      style: ElevatedButton.styleFrom(primary: Colors.white70),
+                      style: ElevatedButton.styleFrom(backgroundColor: Colors.white70),
                       onPressed: InterstitialManager.interstitialAdcheck,
                       child: Text("Ready Status",
                           style: TextStyle(

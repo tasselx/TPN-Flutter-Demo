@@ -104,7 +104,7 @@ class _NativeRouterState extends State<NativeRouter> {
               Padding(
                 padding: EdgeInsets.only(top: 30, left: 20),
                 child: ElevatedButton(
-                  style: ElevatedButton.styleFrom(primary: Colors.white70),
+                  style: ElevatedButton.styleFrom(backgroundColor: Colors.white70),
                   onPressed: () => Navigator.pop(context),
                   child: Text("Back",
                       style: TextStyle(
@@ -119,14 +119,14 @@ class _NativeRouterState extends State<NativeRouter> {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   ElevatedButton(
-                      style: ElevatedButton.styleFrom(primary: Colors.white70),
+                      style: ElevatedButton.styleFrom(backgroundColor: Colors.white70),
                       onPressed: NativeManager.loadNativeWith,
                       child: Text("Load",
                           style: TextStyle(
                             color: Colors.black,
                           ))),
                   ElevatedButton(
-                      style: ElevatedButton.styleFrom(primary: Colors.white70),
+                      style: ElevatedButton.styleFrom(backgroundColor: Colors.white70),
                       // onPressed: NativeManager.showNative,
                       onPressed: _checkReadyToShow,
                       child: Text("Show",
@@ -134,7 +134,7 @@ class _NativeRouterState extends State<NativeRouter> {
                             color: Colors.black,
                           ))),
                   ElevatedButton(
-                      style: ElevatedButton.styleFrom(primary: Colors.white70),
+                      style: ElevatedButton.styleFrom(backgroundColor: Colors.white70),
                       // onPressed: NativeManager.removeNativeAd,
                       onPressed: _remove,
                       child: Text("Remove",
@@ -142,7 +142,7 @@ class _NativeRouterState extends State<NativeRouter> {
                             color: Colors.black,
                           ))),
                   ElevatedButton(
-                      style: ElevatedButton.styleFrom(primary: Colors.white70),
+                      style: ElevatedButton.styleFrom(backgroundColor: Colors.white70),
                       // onPressed: NativeManger.nativeAdReady,
                       onPressed: NativeManager.readyStatus,
                       child: Text("Ready Status",
